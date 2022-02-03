@@ -16,7 +16,6 @@ public class DemoSecurityApplication {
 
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
-//        System.out.println("test");
         return new BCryptPasswordEncoder();
     }
 }
